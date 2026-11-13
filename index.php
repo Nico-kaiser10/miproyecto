@@ -41,7 +41,7 @@ th,td{dorder:1px solid #999;padding:6px
 </style>
 </head>
 <body>
-<h1>Inventario de equipos</h1>
+<h1>Inventario de equipos - Version 2.</h1>
 <h2><?= $e['id'] ? 'Modificar equipo' : 'Registrar equipos' ?></h2>
 <form method="post">
 <input type="hidden" name="id" value="<?= h($e['id']) ?>">
